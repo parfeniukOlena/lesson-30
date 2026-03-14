@@ -1,3 +1,11 @@
+body{
+    display: flex;
+    width: 100%;
+    flex-basis:1512px;
+    flex-direction: column;
+
+}
+
 :root{
     --primary-color: #D9D9D9;
     --secondary-color: #BAB5B5;
@@ -8,43 +16,74 @@
 
 
 .container1{
+    display: flex;
     width: 1512px;
     height: 245.5px;
     background-color: var(--primary-color);
     text-align: center;
-    display: inline-block;
+
+   
 }
 
 .container2 {
+    display: flex;
     width: 1512px;
     height: 319.15px;
     background-color: var(--secondary-color);
     text-align: center;
-    display: inline-block;
+
+
 }
 
 .container3 {
+    display: flex;
     width: 907.2px;
     height: 319.15px;
     background-color: var(--third-color);
+    color: #FFFFFF;
     text-align: center;
-    display: inline-block;
+
+
 }
 
 .container4 {
+    display: flex;
     width: 608px;
     height: 319px;
     background-color: var(--fourth-color);
+    color: #FFFFFF;
     text-align: center;
-    display: inline-block;
+
+
+
 
 }
+.container{ 
+    display: flex;
+    flex-direction: row;
+
+
+
+ } 
 
 .container5 {
+    display: flex;
     width: 1512px;
     height: 98.1px;
     background-color: var(--primary-color);
-    display: inline-block;
+
+}
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+    display: flex;
+    justify-content: center;
+    /* по горизонталі */
+    align-items: center;
+    /* по вертикалі */
+    text-align: center;
 }
 
 
